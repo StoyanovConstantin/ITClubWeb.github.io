@@ -5,7 +5,7 @@
 }
 
 
-.menu, .reklama{
+.menu, .message{
     width: 960px;
     background-color:cadetblue ;
     margin: auto;
@@ -32,7 +32,7 @@
 }
 
 
-.reklama{
+.message{
     background-image: url("bg.png") ;
     min-height: 300px;
     color: lightgoldenrodyellow;
@@ -48,7 +48,7 @@
     border-radius: 7px;
 }
 
-.reklama h2{
+.message h2{
     margin-bottom: 50px;
 }
 
