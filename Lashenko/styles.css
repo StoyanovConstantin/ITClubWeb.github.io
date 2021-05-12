@@ -138,6 +138,11 @@ button{
 .card h1, h3{
     margin: 10px;
 }
+
+.card img{
+    width: 250px;
+}
+
 .buy{
     background-color: forestgreen;
 }
