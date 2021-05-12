@@ -6,7 +6,7 @@
 }
 
 
-.menu, .reklama{ 
+.menu, .message{ 
     width: 960px;
     background-color:orangered;
     margin-left: auto;
@@ -34,7 +34,7 @@
   padding: 0px 5px;
 }
 
-.reklama{ 
+.message{ 
     background-image: url("images.jpg");
     background-size: contain;
     min-height: 300px;
