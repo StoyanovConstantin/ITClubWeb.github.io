@@ -6,7 +6,7 @@
 
 
 
-.menu , .reclama{
+.menu , .message{
     padding: 15px;
     width: 960px;
     background-color:cadetblue;
@@ -36,14 +36,14 @@ text-decoration: none ;
     padding: 0 5px;
 }
  
-.reclama {
+.message {
 background-image: url(bg.png) ;
 min-height: 300px;
 text-align: center;
 color: white;
 }
 
-.reclama a {
+.message a {
     color: white;
     text-decoration: none ;
 border: 3px solid white;
