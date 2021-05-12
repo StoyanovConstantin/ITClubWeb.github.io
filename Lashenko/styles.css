@@ -1,0 +1,156 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.menu , .reclama{
+    padding: 15px;
+    width: 960px;
+    background-color:cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+
+.logo h1 {
+    color: white;
+}
+
+
+.logo h3{
+color: lightgrey ;
+}
+
+
+
+.nav{
+text-align: right;
+text-decoration: none ;
+ 
+}
+.nav a{
+    color: white;
+    padding: 0 5px;
+}
+ 
+.reclama {
+background-image: url(bg.png) ;
+min-height: 300px;
+text-align: center;
+color: white;
+}
+
+.reclama a {
+    color: white;
+    text-decoration: none ;
+border: 3px solid white;
+padding: 10px;
+border-radius: 7px;
+}
+
+
+.reclama h2{
+    margin-bottom: 50px;
+}
+
+.reg:hover{
+color: black;
+background-color: white;
+}
+
+.info{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background: linear-gradient(-45deg,indianred, indigo );
+
+}
+
+.forma{
+    float: right;
+}
+
+form{
+    text-align: right;
+    }
+.forma h3{
+    color: white;
+    font-size: 24pt;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+label{
+    color: white;
+    font-size: 14pt;
+    font-weight: 100;
+}
+
+input{
+    margin-bottom: 10px;
+    background: plum;
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 7px;
+}
+
+button{
+    background-color: indigo;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+    font-weight: 600;
+}
+
+
+
+.shop {
+    background-color: cadetblue;
+    width: 960px;
+    padding: 15px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+
+.tovar{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    display: inline-table;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 10px;
+    width: 270px;
+}
+
+.card h1, h3{
+    margin: 10px;
+}
+.buy{
+    background-color: forestgreen;
+}
+
+.footer{
+    background-color: midnightblue;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+.footer h1{
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}

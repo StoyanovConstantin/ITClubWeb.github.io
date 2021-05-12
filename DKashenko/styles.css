@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+}
+
+
+.menu, .reklama{
+    width: 960px;
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.logo h1{
+   color:white
+}
+
+.logo h3{
+    color:lightgray
+}
+
+.navigation{
+    text-align: right;   
+}
+
+.navigation a{
+    color:white;
+    text-decoration: none;
+    padding: 0px 5px
+}
+
+.reklama{
+    background-image: url("bg.png");
+    min-height: 300px;
+    color:white;
+    text-align: center;
+}
+
+.register{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding:10px;
+    border: solid 3px white;
+    border-radius: 7px;
+}
+
+.reklama h2{
+    margin-bottom: 50px;
+}
+
+.register:hover{
+    color:black;
+    background-color: white;
+}
+
+.info{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background: linear-gradient(-45deg,indianred, indigo);
+}
+
+.forma{
+    float:right;
+}
+
+form{
+    text-align: right;
+}
+
+.forma h3 {
+    color:white;
+    font-size: 24pt;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+label{
+    color:white;
+    font-size: 14pt;
+    font-weight: 100;
+}
+
+input{
+    margin-bottom: 10px;
+    background-color: plum;
+    border: none;
+    padding: 7px;
+    color: white;
+    border-radius: 7px;
+}
+
+button{
+     background-color: indigo;
+     color:white;
+     border: none;
+     border-radius: 7px;
+     padding: 7px;
+     font-weight: 600;
+}
+
+.shop{
+    background-color: cadetblue;
+    width:960;
+    padding:15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tovar{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.card{
+    display: inline-table;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.card h1, h3{
+    margin: 10px;
+}
+
+.buy{
+    background-color: forestgreen;
+}
+
+.footer{
+    background-color: midnightblue;
+    min-height: 50px;
+    width: 960px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer h1{
+    color:white;
+    font-weight:100;
+    text-align: center;
+}

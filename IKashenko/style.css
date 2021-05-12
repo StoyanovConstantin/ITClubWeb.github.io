@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.menu, .reklama{
+    width: 960px;
+    background-color:cadetblue ;
+    margin: auto;
+    margin: auto;
+    padding: 15px;
+}
+
+.logo h1{
+    color: wheat;
+}
+
+.logo h3{
+    color: lavender;
+}
+
+.navigation{
+    text-align: right;
+}
+
+.navigation a{
+    color: lawngreen;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+
+.reklama{
+    background-image: url("bg.png") ;
+    min-height: 300px;
+    color: lightgoldenrodyellow;
+    text-align:center;
+}
+
+.reg{
+    color: wheat;
+    font-size: 18px;
+    text-decoration: none;
+    border: solid wheat;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.reklama h2{
+    margin-bottom: 50px;
+}
+
+.reg:hover{
+    color: black;
+    background-color: wheat;
+}
+.info{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background: linear-gradient(-45deg, indianred, indigo);
+}
+
+.forma{
+    float: right;
+}
+
+form{
+    text-align: right;
+}
+
+.forma h3{
+    color: wheat;
+    font-size: 24pt;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+label{
+    color: wheat;
+    font-size: 14pt;
+    font-weight: 100;
+}
+
+input{
+    margin-bottom: 10px;
+    background-color: plum;
+    border: none;
+    padding: 7px;
+    color: wheat;
+    border-radius: 7px;
+}
+
+button{
+    background-color: indigo;
+    color: wheat;
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+    font-weight: 600;
+}
+
+.shop{
+    background-color: darkturquoise;
+    width: 960px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tovar{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    display: inline-table;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.card h1, h3{
+    margin: 10px;
+}
+
+.buy{
+    background-color: olivedrab;
+}
+
+.footer{
+    background-color: midnightblue;
+    min-height: 50px;
+    width: 960px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer h1{
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
