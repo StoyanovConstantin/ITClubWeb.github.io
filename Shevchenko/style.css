@@ -109,6 +109,7 @@ button{
      }
 .card h1,h3{
     margin: 10px;
+    font-size: 14pt;
            }
 .buy{
     background-color: forestgreen;
