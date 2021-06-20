@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);}
+.panelmenu{
+    background-color:	#FFA07A	;
+    height:70px;
+    margin-bottom: 40px;
+    border-radius: 0 0 40px 40px;
+}
+.panelmenu>a{
+     color:#FF6347	;
+     font-size:16pt;
+}
+.panelmenu>a:hover{
+    color:#DC143C	;
+}
+.panelmenu>a:last-child{
+    margin-right: 40px;
+}
+.foot{
+	background-color:	#FF6347	
+     }

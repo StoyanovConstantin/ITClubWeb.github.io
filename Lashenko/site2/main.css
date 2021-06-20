@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+
+}
+.panel{
+    background-color:violet ;
+    height:60px px;
+    border-radius: 0 0 40px 40px;
+}
+
+.panel>a{
+    color: Lavender;
+}
+.panel>a:hover{
+text-decoration: underline ;
+}
+.panel>a:last-child{
+    margin-right: 40px;
+}
+.new{
+    color: Lavender;
+}
+.knopka{
+  background-color: violet;
+}
+.knopka:hover{
+    color: Lavender;
+}
+
+.reg{
+    margin:  40px auto;
+    border-radius: 40px;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    padding: 40px ;
+}
+.ft{
+    background-color:RebeccaPurple;   
+    color: Lavender;
+    border-radius: 40px;
+}

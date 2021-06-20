@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+}
+
+.panelmenu{
+    background-color: skyblue;
+    height: 80px;
+    margin-bottom: 40px;
+    border-radius: 0 0 40px 40px;
+}
+.panelmenu > a{
+    color: teal;
+    font-size: 16pt;
+}
+.panelmenu > a:hover{ 
+  color: coral;
+  text-decoration: underline;
+}
+
+.panelmenu > a:last-child{
+    margin-right: 40px;
+} 
+
+.movietitele{
+    color: skyblue;
+}
+
+.knape{
+    background-color: goldenrod;
+    color: maroon;
+}
+
+.knape:hover{
+    background-color: teal;
+    color: tomato;
+    border: solid 3px teal; 
+}
+
+.registration{
+    margin: 40px auto; 
+    padding: 40px;
+    border-radius: 40px;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    color: whitesmoke;
+}
