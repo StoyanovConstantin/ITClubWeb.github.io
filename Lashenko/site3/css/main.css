@@ -1,0 +1,52 @@
+body{
+    background-color:SeaGreen;
+}
+.bg-menu{
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    margin-bottom: 30px;
+}
+.mylogo{
+    font-size: 18pt;
+    color: white;
+    margin-left: 30px;
+}
+.mylogo:hover{
+    color: Orange  ;
+    text-decoration: underline;
+}
+.egor{
+    background-color: seaGreen;
+}
+.myslayder{
+margin-bottom: 60px;
+}
+
+.box-img{
+            text-align: center;
+        }
+
+.box-img > img{
+    width:  auto;
+    height: 250px;
+}
+
+.card{
+	margin-bottom: 40px;
+}
+
+.collapse{
+    margin-top: 20px;
+}
+.rekvizit,.adrs{
+    font-size: 24pt;
+    margin-bottom: 30px;
+    color: white;
+    margin-top: 15px;
+}
+label{
+color: white;
+font-size: 14pt;
+}
+.btn-oplata{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}

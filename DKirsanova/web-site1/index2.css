@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14pt;
+}
+.menu{
+	width:960px;
+	padding: 30px;
+	margin: 0 auto;
+	background-color:darkmagenta;
+}
+.logo{
+	color:lavander;
+	font-weight: 100;
+	font-size: 32pt;
+	color: SkyBlue;
+}
+.slogan{
+	font-size: 18pt;
+	color:mediumslateblue;
+
+}
+nav{
+	text-align:right;
+}
+nav a{
+  	color:red;
+  	font-size: 16pt;
+  	margin-right:20px;
+  	text-decoration: none;
+  }
+nav a:hover{
+	color:tomato;
+	text-decoration: underline;
+}
+
+.reklama{
+	width:960px;
+	padding: 30px;
+	margin: 0 auto;
+	background-color:darkmagenta;
+	background-image: url("bg.png");
+	min-height: 300px;
+	text-align: center;
+}
+.reklama h2{
+	color:peachpuff;
+	font-size: 24pt;
+	font-weight:100;
+	letter-spacing: 3px;
+	margin-bottom: 50px;
+}
+.btn {
+ color:DarkKhaki;
+ text-decoration: none;
+ border:dashed 3px red;
+ padding: 15px;
+ font-size: 17pt;
+ border-radius: 6px;
+}
+ .btn:hover{
+ 	color:black;
+ 	background-color:moccasin;
+ }
+.shop{
+	width:960px;
+	padding: 30px;
+	margin: 0 auto;
+	background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);	
+}
+.tovar{
+  	 margin: 0 auto;
+  	 width: 100%;
+  	 text-align: center;
+   }
+.card{
+  	 display: inline-table;
+    background-color:white;
+    margin: 10px;
+    padding:10px;
+    width: 270px;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+   }
+.card img{
+ width: 100%;
+ border-radius: 10px;
+    }
+.card h3, h4{
+    color:black;
+    margin:10px 0;
+    font-weight: 100;
+    font-size: 18pt;
+}
+.buybtn{
+	color:white;
+	text-decoration: none;
+	background-color: lightgreen;
+	padding: 10px;
+	border-radius: 5px;
+}
+.registr{
+	width:960px;
+	margin: 0 auto;
+	padding: 30px;
+	background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+}
+.zareg{
+	float:right;
+}
+.zareg h2{
+		color:palegoldenrod;
+		font-size: 24pt;
+		font-weight:100;
+		margin-bottom: 30px;
+}
+ form{
+ 	text-align: right;
+ }
+ label{
+ 	color:black;
+ 	font-weight: 100;
+ 	padding: 5px;
+ }
+ input{
+ 	background-color:plum;
+ 	border-radius: 7px;
+ 	border:none;
+ 	color:darkviolet;
+ 	padding:7px;
+ 	margin-bottom: 15px;
+
+ }
+ button{
+ 	background-color:plum;
+ 	border-radius: 7px;
+ 	border:none;
+ 	color:indigo;
+ 	padding:9px;
+ }
+ button:hover{
+   	background-color:rosybrown;
+ }
+.footer{
+	width: 960px;
+	height: 40px;
+	background-color:midnightblue;	
+	padding: 30px;
+	margin: 0 auto;
+ }
+
+.footer h3{
+	text-align: center;
+	color:lightsteelblue;
+
+}
+
+
+ 

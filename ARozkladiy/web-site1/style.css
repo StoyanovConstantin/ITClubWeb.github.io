@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14pt;
+}
+.menu{
+	width: 960px;
+	margin: 0 auto;
+	background-color: orchid;
+	padding: 30px;
+}
+
+.cash{
+	font-size: 32pt;
+	color: peachpuff;
+}
+.bag{
+	font-size: 24px;
+	color: purple;
+}
+
+nav{
+	text-align: right;
+
+}
+nav a{
+	color: rebeccapurple;
+	font-size: 18px;
+	margin-right: 15px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	font-size: 25px;
+	color: indigo;
+	text-decoration: underline;
+}
+.reklama{
+	width: 960px;
+	margin: 0 auto;
+	background-color: orchid;
+	padding: 30px;
+	background-image: url("bg.png");
+	min-height: 300px;
+	text-align: center;
+}
+.reklama h2{
+	color: oldlace;
+	font-size:24px;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	margin-bottom: 80px;
+}
+.btn{
+	color: oldlace; 
+	text-decoration: none;
+	border: 3px oldlace solid;
+	padding: 15px;
+	font-size: 18px; 
+	border-radius: 5px;
+}
+.btn:hover{
+	color: purple;
+	background-color: orchid;
+	margin: 20px 0;
+	font-weight: 500;
+	font-size: 18pt; 
+}
+
+.registr{
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px;
+	background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+}
+
+.zareg{
+	float: right;
+}
+
+.zareg h2{
+	color:orchid;
+	font-size: 28pt;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+form{
+	text-align: right;
+}
+
+label{
+	color: violet;
+	font-weight: 100;
+	padding: 5px;
+}
+
+input{
+	background-color: orchid;
+	border-radius: 7px;
+	border: none;
+	color: indigo;
+	padding: 7px;
+	margin-bottom:15px;
+}
+button{
+	background-color: violet;
+	color: rebeccapurple;
+	border-radius: 7px;
+	border: none;
+	padding: 9px;
+}
+
+button:hover{
+	background-color:purple;
+}.shop{
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px;
+	background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.tovar{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+.card{
+	display: inline-table;
+	background-color: mistyrose;
+	margin: 10px;
+	padding: 10px;
+	width: 270px;
+	text-align: center;
+	border-radius: 15px;
+	padding-bottom: 20px;
+}
+.card img{
+	width: 100%;
+	border-radius: 15px
+}
+.card h3{
+	margin: 20px 0;
+	font-weight: 500;
+	font-size: 18pt; 
+}
+.card h4{
+	margin: 20px 0;
+	font-weight: 600;
+	font-size: 18pt; 
+}
+.buybtn{
+	color: white;
+	background-color: purple;
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 7px; 
+}
+	
+
+
+
+
+
+
+.footer{
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px;
+	height: 40px;
+	background-color: rebeccapurple;
+}
+
+.footer h3{
+	text-align: center;
+	color: peachpuff;
+}

@@ -1,0 +1,78 @@
+body{
+    background-color: DarkOrange;
+}
+
+.bgmenu{
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    margin-bottom: 30px;
+}
+
+.logo{
+    color: DarkOrange;
+    font-size: 18pt;
+    margin-left: 30px;
+}
+
+.logo:hover{
+    text-decoration: underline;
+    color: OrangeRed;
+}
+
+.mybtn{
+    background-color:DarkSlateBlue ;
+    border: solid 1px MediumSlateBlue;
+    color:mediumslateblue ;
+
+}
+
+.mybtn:hover{
+    background-color: mediumslateblue;
+    border: solid 1px MediumSlateBlue;
+}
+
+.egor{
+    background-color: DarkOrange;
+    border: solid 3px OrangeRed;
+}
+
+.datq{
+
+margin-bottom: 60px;
+
+}
+
+.card{
+    margin-bottom: 40px;
+    padding: 20px;
+    
+}
+
+.collapse{
+    margin-top: 20px;
+}
+.redas, .adr{
+    color:red;
+    font-size:24pt;
+    margin-bottom:30px;
+    margin-top: 15px;
+}
+
+label{
+    color: white;
+    font-size: 14pt;
+}
+
+.oplaw{
+    background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+}
+
+.box-img{
+    text-align: center;
+}
+
+.box-img img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+}

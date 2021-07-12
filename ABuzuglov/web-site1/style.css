@@ -1,0 +1,182 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:14pt;
+}
+
+.menu{
+	width:960px;
+	margin:0 auto;
+	background-color:darkcyan;
+	padding:30px;
+}
+.logo{
+
+
+	font-size:36pt;
+
+	color:aqua;
+	font-weight:100;
+}
+.slogan{
+	font-size:24pt;
+	color:bisque;
+}
+nav{
+	text-align:right;
+
+}
+nav a{
+	color:moccasin;
+	font-size:14pt;
+	margin-right:15px;
+	text-decoration:none;
+
+}
+
+nav a:hover{
+	
+	color:silver;
+	text-decoration:underline;
+}
+
+.reclama{
+	width:960px;
+	padding:30px;
+	background-image:url("bg.png");
+	min-height:300px;
+	text-align:center;
+	margin: 0 auto;
+}
+
+.reclama h2{
+	color:white;
+	font-size:24pt;
+	font-weight:100;
+	letter-spacing:3px;
+	margin-bottom:50px;
+}
+
+.reclama a{
+	color:white;
+	text-decoration:none;
+	border:3px white solid;
+	padding:15px;
+	font-size:18pt;
+	border-radius:7px;
+}
+
+.btn:hover{
+	color:darkcyan;
+	background-color:white;
+
+}
+
+.shop{
+	width:960px;
+	padding:30px;
+	text-align:center;
+	margin: 0 auto;
+	background-color: blue;
+}
+
+.tovar{
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+}
+	
+
+
+.card{
+	display:inline-table;
+	background-color:white; 
+	margin:10px;
+	padding:10px;
+	width:250px; 
+	text-align:center;
+	border-radius:10px;
+	padding-bottom:20px;  
+}
+
+.card img{
+	width:250px;
+}
+
+.card h3, h4{
+	color:darkcyan;
+	margin:20px 0;
+	font-weight:100;
+	font-size:15pt;  
+}
+
+.buybtn{
+	color:white;
+	text-decoration:none;
+	background-color:green;
+	padding:10px;
+	border-radius:7px;   
+}
+
+.registr{width:960px;
+	margin:0 auto;
+	padding:30px;
+	background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%)
+
+}
+
+.zareg{
+	float:right;
+}
+
+.zareg h3{
+	color:midnightblue;
+	font-size:28pt;
+	font-weight:100;
+	margin-bottom:30px;  
+}
+
+form{
+	text-align:right;
+}
+
+label{
+	color:navy;
+	font-weight:100; 
+	padding:5px;
+}
+
+input{
+	background-color:sandybrown  ;
+	border-radius:7px;
+	border
+
+	:none;
+	padding:7px;
+	margin-bottom:15px; 
+}
+
+button{
+	background-color:mediumblue ; 
+	color:lightseagreen;
+	border-radius:7px;
+	border:none;
+	padding:9px;
+
+
+}
+
+button:hover{
+	background-color:cyan ; 
+}	
+.footer{
+	width:960px;
+	margin:0 auto;
+	height:60px;
+	background-color:navy;
+	padding:30px; 
+}	
+.footer h4{
+	color:white;
+	text-align:center; 
+}	

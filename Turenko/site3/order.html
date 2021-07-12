@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Новый сайт</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+</head>
+
+<body>
+    <nav class="navbar bgmenu">
+        <div class="container-fluid">
+          <a href="indecs.html" class="navbar-brand logo"> Камаз-мастер</a> 
+          <form class="d-flex">
+              <input type="search" placeholder="Поиск" class="form-control me-3">
+               <button class="btn btn-outline-success mybtn">Искать</button>
+          </form>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-8">
+
+                <h4 class="redas"> Реквизит</h4>
+                <form>
+                 <div class="row">
+                     
+                     <div class="col-6">
+                         <label class="form-label"> Имя:</label>
+                         <input type="text" class="form-control" required>
+                         
+                     </div>
+                     <div class="col-6">                     
+                        <label class="form-label"> Фамилия:</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-12 mt-3">                     
+                        <label class="form-label"> Еmain:</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+
+                    <h5 class="adr">Адрес:</h5>
+
+                    <div class="col-5 mt-3">
+                        <label class="form-label">Страны:</label> 
+                        <select class="form-select">
+                            <option> ЛНР</option>
+                            <option> ДНР</option>
+                            <option> Россия</option> 
+                            <option> Беларусия</option>
+                        </select>
+                    </div>
+
+                    <div class="col-4 mt-3">
+                        <label class="form-label">Город:</label> 
+                        <select class="form-select">
+                            <option> Луганск</option>
+                            <option> Донецк</option>
+                            <option> Москва</option> 
+                            <option> Минск</option>
+                        </select>
+                    </div>
+
+                    <div class="col-3 mt-3">                     
+                        <label class="form-label">ИНДЕКС :</label>
+                        <input type="number" class="form-control">
+                    </div>
+                
+                    <hr class="mt-3">
+
+                       <div class="form-check">
+                           <input type="checkbox"class="form-check-control">
+                           <label class="form-check-label"> Я согласен</label>
+                       </div>
+
+                       <hr class="mt-3">
+
+                       <div class="form-check">
+                            <input type="radio"class="form-check-input" name="pay">
+                            <label class="form-check-label"> Наличными</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="radio"class="form-check-input" name="pay">
+                            <label class="form-check-label"> Картой банка</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="radio"class="form-check-input" name="pay">
+                            <label class="form-check-label"> Электронным кошельком</label>
+                        </div>
+
+                   <button class="w-100 btn btn-lg btn mb-3 mt-5 oplaw" type="submit">Оплатить</button>
+                   <button class="w-100 btn-secondary btn-lg btn mb-3 mt-3" type="reset">Сброс </button>
+                 </div>
+
+                </form>
+            </div>
+                     
+            <div class="col-4">
+                <h4> Заказ</h4>
+            </div>
+
+        </div>
+    </div>            
+            
+</body>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

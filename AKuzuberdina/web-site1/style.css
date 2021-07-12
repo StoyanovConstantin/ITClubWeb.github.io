@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size:  14pt;
+}
+
+.menu{
+	width: 960px;
+	margin: 0 auto;
+	background-color: olivedrab;
+	padding: 30px;
+}
+
+.logo{
+	font-size: 32pt;
+	color:  MintCream;
+	font-weight: 100;
+}
+
+.slogan{
+	font-size: 18pt;
+	color: Tan;
+}
+
+nav{
+	text-align: right;
+}
+
+nav a{
+	color: MintCream;
+	font-size: 16pt;
+	margin-right: 15px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: LightCyan;
+	text-decoration: underline;
+}
+
+.reklama{
+	width: 960px;
+	margin: 0 auto;
+	background-color: olivedrab;
+	padding: 30px;
+	background-image: url('bg.png');
+	min-height: 300px;
+	text-align: center;
+}
+
+.reklama h2{
+	color: MintCream;
+	font-size: 24pt;
+	font-weight: 100;
+	letter-spacing: 3px;
+	margin-bottom: 70px;
+}
+
+.btn{
+	color: MintCream;
+	text-decoration: none;
+	border: 3px MintCream solid;
+	padding: 15px;
+	font-size: 18pt;
+	border-radius: 5px;
+}
+
+.btn:hover{
+	color: black;
+	background-color: MintCream;
+}
+
+.shop{
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px;
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+.tovar{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+
+}
+
+.card{
+	display: inline-table;
+	background-color: white;
+	margin: 10px; 
+	padding: 10px; 
+	width: 270px;
+	text-align: center;
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+
+.card img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.card h3, h4{
+	color: olivedrab;
+	margin: 10px 0;
+	font-weight: 100;
+	font-size: 18pt;
+}
+
+.buybtn{
+	color: MintCream;
+	text-decoration: none;
+	background-color: green;
+	padding: 10px;
+	border-radius: 7px;
+}
+
+.regestrasti{
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px;
+	background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+	}
+	.zareg{
+	float: right;	
+	}
+
+	.zareg h3{
+		color: forestgreen;
+		 font-size: 24pt;
+		 font-weight: 100;
+		 margin-bottom: 30px;
+	}
+	form{
+		text-align: right;
+	}
+	label{
+		color: darkgreen; 
+		font-weight: 100;
+		padding: 5px;
+	}
+	input{
+		background-color: lightgreen;
+		border-radius:7px;
+		border: none;
+		color:darkseagreen; 
+		padding: 7px;
+		margin-bottom: 15px;
+}
+	button{
+	background-color: seagreen;
+	color: springgreen;
+	padding: 7px;
+	border: none;
+	padding: 9px;
+	}
+	button:hover{
+		background-color: teal;
+	}
+

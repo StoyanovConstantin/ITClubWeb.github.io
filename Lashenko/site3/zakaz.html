@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Новый сайт</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+</head>
+
+<body>
+    <nav class="navbar bg-menu">
+        <div class="container-fluid">
+          <a class="navbar-brand mylogo" href="">Швабра Кадабра</a>
+          <form class="d-flex">
+             <input type="search" placeholder="search" class="form-control me-3" >
+             <button class="btn btn-outline-success">search</button>
+          </form>
+        </div>
+    </nav> 
+
+    <div class="container">
+           <div class="row">
+                 <div class="col-8">
+                      <h4 class="rekvizit">реквизиты</h4>
+                      <form>
+                           <div class="row">
+                               
+                                <div class="col-6">
+                                    <label class="form-label">Имя:</label> 
+                                    <input type="text" class="form-control" required>
+                                </div>
+
+                                <div class="col-6"> 
+                                    <label class="form-label">фамилия:</label> 
+                                    <input type="text" class="form-control" required>                  
+                                </div>
+                                
+                                <div class="col-12 mt-3">
+                                    <label class="form-label">Эмейл:</label> 
+                                    <input type="email" class="form-control" required>             
+                                </div>
+
+                                <h5 class="mt-3 adrs">Адрес</h5>
+
+                                <div class="col-5 mt-3">
+                                    <label class="form-label">Страна:</label>
+                                    <select class="form-select">
+                                        <option>ЛНР</option>
+                                        <option>ДНР</option>
+                                        <option>Россия</option>
+                                        <option>Белорусь</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-4 mt-3">
+                                    <label class="form-label">город:</label>
+                                    <select class="form-select">
+                                        <option>Луганск</option>
+                                        <option>Донецк</option>
+                                        <option>Москва</option>
+                                        <option>Минск</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-3 mt-3">
+                                    <label class="form-label">индекс:</label> 
+                                    <input type="number" class="form-control" >
+                                    
+                                </div>
+
+                                <hr class="m-3">
+
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-control" required>
+                                    <label class="form-check-label">я согласен с правилами сайта</label> 
+                                </div>
+
+                                <hr class="m-3">
+
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" name="pay" required>
+                                    <label class="form-check-label">наличными</label> 
+                                </div>
+                                
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" name="pay" required>
+                                    <label class="form-check-label">банковской артой</label> 
+                                </div>
+                                
+                                <div class="form-check">
+                                    <input type="n radio" class="form-check-input" name="pay" required>
+                                    <label class="form-check-label">эликтронным кошелькм</label> 
+                                </div>
+
+                                <button  class="w-100 btn btn-oplata mt-5 btn-lg mb-3" type="submit">оплатить</button>                                    
+                                <button class="w-100 btn btn btn-secondary btn-lg mb-3" type="reset">Сбросить</button>
+                               
+
+
+                            </div>
+                        </form>
+                 </div>
+
+                <div class="col-4">
+                    <h4>заказать</h4> 
+                </div>
+           </div>
+    </div>
+</body>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
