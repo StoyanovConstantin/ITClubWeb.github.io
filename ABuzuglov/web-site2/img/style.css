@@ -1,0 +1,64 @@
+body{
+	background-color:silver; 
+}
+.my-nav{
+	background-color:mediumturquoise; 
+	height:70px;
+	border-radius: 0 0 20px 20px;
+}
+
+.my-nav a{
+	color:DarkSlateGray;
+	font-size:16pt;
+	margin:20px;
+	margin-top:15px;
+	text-decoration:none; 
+}
+
+.my-nav a:hover{
+	color:white;
+	text-decoration:underline;
+}
+
+.my-soon, .my-new ,  {
+	margin:30px 0 ;
+}
+
+.my-soon h3, .my-new h3 {
+	color:darkslategray;
+	font-weight:600; 
+}
+
+.card-img-top{
+	height:430px;
+	padding:20px;
+	border-radius:25px 0; 
+}
+
+.my-btn{
+	background-color:royalblue; 
+
+}
+
+.my-btn:hover{
+	background-color:aquamarine; 
+
+}
+
+.btn{
+	background-color:royalblue; 
+
+}
+
+.btn:hover{
+	background-color:aquamarine;} 
+
+.btn{
+	background-color:royalblue; 
+
+}
+
+.btn:hover{
+	background-color:aquamarine; 
+
+

@@ -1,0 +1,122 @@
+body{
+    background-image: url('../img/bg1.jpg');
+    background-attachment: fixed ;
+    background-size: cover;
+}
+ .left-sayt{
+
+    width: 300px;
+    height: 100vh;
+    float: left;
+    position: fixed;
+}
+
+.right-sayt{
+ 
+    width: 100%;
+    float: left;
+    padding-left: 300px;
+}
+
+.my-navi{
+     width: 100%;
+     height: 100vh;
+     background-color: MediumSlateBlue;
+}
+.my-menu{
+    margin: 0 auto;
+    list-style: none;
+}
+     .my-menu li{
+    margin: 20px 0;
+     }
+     .my-menu li a{
+         font-size: 16pt;
+         color: white ;
+         text-decoration: none;
+         font-weight: bolder;
+     }
+     .my-menu li a:hover{
+         color: darkblue;
+         text-decoration: underline;
+     }
+ section{
+     height: 100vh;
+ }
+ .my-about{
+     background-color: rgba(0, 11, 219, 0.3);
+ }
+ .my-skils{
+    background-color: rgba(151, 5, 255, 0.3);
+ }
+ .my-int{
+    background-color: rgba(57, 114, 236, 0.3);
+ }
+ .my-about-text{
+     text-align:center;
+     padding: 50px;
+     color: white;  
+   
+ }
+ .my-skils-text{
+     color: white;
+     padding: 50px;
+     background-color: rgba(182, 171, 242, 0.88);
+     border-radius: 10px;
+ }
+ .my-skils-text h4{
+     font-size: 24pt;
+ }
+ .my-skils-text h5{
+    font-size: 18pt;
+}
+.my-works{
+    background-color: red;
+}
+.my-contacs{
+   background-color: rgba(254, 32, 206, 0.3);
+}
+
+.my-int-text{
+    color: white;
+    padding: 50px;
+    background-color: rgba(149, 179, 243, 0.85);
+    border-radius: 10px;
+}
+.my-int-text h4{
+    font-size: 24pt;
+}
+.my-int-text h5{
+   font-size: 18pt;
+}
+
+.my-cont-text h2{
+    font-size: 32pt;
+    color: white;
+    font-weight: 600;
+}
+
+.my-cont-text h3{
+    font-size: 32pt;
+    color: white;
+    font-weight: 400;
+    margin: 20 0;
+}
+
+.my-icon{
+    font-size: 28;
+    height: 70;
+    width: 70;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: gray;
+    text-align: center;
+    margin: 10 20;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.my-icon:hover{
+    color: red;
+}

@@ -1,0 +1,61 @@
+body{
+	background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+
+.carousel-item img{
+	height: 535px;
+}
+
+.my-slider-icon{
+	background-color: lightcoral;
+	padding: 12 0px;
+	border: 3px  indianred solid;
+}
+
+.mybox-img{
+	height: 250px;
+	text-align: center;
+
+}
+
+.mybox-img img{
+	padding: 20px;
+	max-height: 250px;
+	width: auto;
+	max-width: 100%;
+}
+
+.row div{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.masha{
+	background-color: darksalmon;
+    padding: 0 50px;
+}
+
+.mybrand-name{
+	color: 	peachpuff;
+	font-weight: 600;
+	background-color: lightsalmon;
+	padding: 0 10px 0 10px;
+}
+
+.naitimilasha{
+	background-color: indianred;
+	color: bisque;
+}
+
+.zayka{
+	margin-top: 30px;
+}
+
+.zayka .row{
+	margin-bottom: 30px;
+}
+
+.card-body h5{
+	font-size: 1rem;
+	min-height: 30px;
+}

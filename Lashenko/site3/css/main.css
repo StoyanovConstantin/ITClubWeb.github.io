@@ -10,13 +10,16 @@ body{
     color: white;
     margin-left: 30px;
 }
+
 .mylogo:hover{
     color: Orange  ;
     text-decoration: underline;
 }
+
 .egor{
     background-color: seaGreen;
 }
+
 .myslayder{
 margin-bottom: 60px;
 }
@@ -27,7 +30,8 @@ margin-bottom: 60px;
 
 .box-img > img{
     width:  auto;
-    height: 250px;
+    max-width: 100%;
+    max-height: 250px;
 }
 
 .card{
@@ -43,10 +47,12 @@ margin-bottom: 60px;
     color: white;
     margin-top: 15px;
 }
+
 label{
 color: white;
 font-size: 14pt;
 }
+
 .btn-oplata{
     background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }

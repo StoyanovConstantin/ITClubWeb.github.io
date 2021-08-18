@@ -1,0 +1,64 @@
+.my-nav{
+	background-color: lightskyblue;
+	height: 70px;
+	border-radius:0px 0px 20px 20px;
+	margin-bottom: 20px;
+}
+
+.my-nav a{
+	color:navy;
+	font-size:16pt;
+	margin-right: 20px;
+	margin-top: 15px;
+	text-decoration: none;
+}
+
+.my-nav a:hover{
+	color:mediumblue;
+	text-decoration: underline;
+}
+
+body{
+	background-color: mediumslateblue;
+}
+
+.my-soon, .my-new{
+	margin:30px 0;
+	font-weight: 600;
+}
+
+.my-soon h3, .my-new h3{
+	color: darkslateblue;
+}
+
+.card-img-top{
+	height: 360px;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+.my-btn{
+	background-color: yellow;
+}
+
+.my-btn:hover{
+	background-color: pink;
+}
+
+.my-footer{
+	background-color: indigo;
+	color:white;
+	text-align: center;
+	font-size: 14pt;
+	border-radius: 25px 25px 0px 0px;
+	margin-top:  65px;
+}
+
+.my-reg{
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+	padding: 50px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	color: black;
+	border-radius: 25px;
+}

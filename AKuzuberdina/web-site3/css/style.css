@@ -1,0 +1,54 @@
+body{
+	background-color: whitesmoke;
+}
+
+.carousel-item img{
+	height: 550px;
+}
+
+.my-slider-icon{
+	background-color: dodgerblue;
+	padding: 12 0px;
+	border: 3px paleturquoise solid;
+}
+
+.mybox-img{
+	 height: 250px;
+	 text-align: center;
+}
+
+.mybox-img img{
+	padding: 20px;
+	max-height: 250px;
+	width: auto;
+	max-width: 100%;
+}
+
+.mymenu{
+	background-color: plum;
+	padding:0 50px;
+}
+
+.mybrand-name{
+	color: lightcyan
+	font-weight: 600;
+	background-color: thistle;
+	padding: 5px 10px; 
+}
+.mypoisk{
+	background-color: thistle;
+	color: lavenderblush; 
+	font-weight: bold;
+}
+
+.mytovar{
+	margin-top: 30px;
+}
+
+.mytovar .row{
+	margin-bottom: 30px; 
+}
+.card-body h5{
+	font-size: 1rem;
+	min-height: 40px;
+}

@@ -1,0 +1,53 @@
+body{
+	background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+	
+}
+.carousel-item img{
+	min-height: 500px;
+	max-height: 550px;
+}
+.my-slider-icon{
+	background-color:turquoise ;
+	padding: 3px;
+	border: 3px lightcyan solid; 
+}
+
+
+
+
+.mybox-img{
+	height: 250px;
+	text-align: center;
+}
+.mybox-img img{
+	padding: 20px;
+	max-height: 250px;
+	width: auto;
+	max-width: 100%;
+}
+
+
+
+.mymenu{
+	background-color: royalblue;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.mybrend-name{
+	color: lightcyan;
+	font-weight: 700;
+}
+
+.mypoisk{
+	background-color:turquoise;
+}
+.mytovar{
+	margin-top: 30px;
+}
+.mytovar .row{
+	margin-bottom: 30px;
+}
+.card-body h5{
+	font-size: 1rem;
+	
+}

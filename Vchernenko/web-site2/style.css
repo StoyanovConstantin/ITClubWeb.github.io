@@ -1,0 +1,52 @@
+
+body{
+ background-color:cornsilk;
+}
+	.my-nav{
+	background-color:lightcoral;
+	height:70px;
+	border-radius: 0 0 50px 50px;
+}
+.my-nav a{
+	color:cornsilk;
+	font-size: 16pt;
+	margin-right: 20px;
+	margin-top: 15px;
+	text-decoration: none;
+}
+.my-nav a:hover{
+	color: indianred;
+}
+.my-soon, .my-new{
+	margin: 25px 0;
+}
+.my-soon h3, .my-new h3{
+color:coral ;
+font-weight: 600;	
+}
+.card-img-top{
+	height: 360px;
+	padding: 20px;
+	border-radius: 25px;
+}
+.my-btn{
+	background-color:lightcoral;
+}
+.my-btn:hover{
+	background-color:indianred;
+}
+.my-footer{
+	background-color:lightcoral;
+	color: cornsilk;
+	text-align: center;
+	font-size: 14pt;
+	border-radius: 50px 50px 0 0; 
+}
+.my-reg{
+	background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+	padding: 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color:indianred ;
+	border-radius: 50px;
+}

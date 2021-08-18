@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>Интернет-магазин</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+	<!--кнопка НАЧАЛО-->
+	<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#zakaz1">Купить</button>
+
+	<!--кнопка КОНЕЦ-->
+
+
+
+	<!--modal НАЧАЛО-->
+	<div class=" modal fade" id="zakaz1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Велосипедки</h5>
+						<button class="btn-close" data-bs-dismiss="modal"></button>
+					</div>
+
+ 					<div class="modal-body">
+ 						<h6>Заполните форму заказа</h6>
+ 						<form>
+ 							<label class="form-label">Имя:</label>
+ 							<input class="form-control" type="text" required>
+
+ 							<label class="form-label">Телефон:</label>
+ 							<input class="form-control" type="tel" required>
+
+ 							<label class="form-label">Количество:</label>
+ 							<input class="form-control" type="number" min="1" max="100" required>
+
+
+ 							<h6>Выберите форму оплаты</h6>
+
+ 							<input type="radio" class="form-check-input" name="pay">
+ 							<label class="form-label me-2">Наличными</label>
+
+ 							<input type="radio" class="form-check-input" name="pay">
+ 							<label class="form-label me-2">Банковская карта</label>
+
+ 							<input type="radio" class="form-check-input" name="pay">
+ 							<label class="form-label me-2">Эл. кошелёк</label>
+						
+
+ 					</div>
+ 					<div class="modal-footer">
+ 						
+ 						<button class="btn btn-success" type="submit">Оформить</button>
+ 						<button class="btn btn-secondary" type="reset">Сбросить</button>
+
+ 					</div>
+ 					</form>
+				</div>
+			</div>
+	</div>
+	<!--modal КОНЕЦ-->
+
+
+	</body>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+</html>

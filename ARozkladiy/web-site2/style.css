@@ -1,0 +1,61 @@
+.my-nav{
+	background-color: moccasin;
+	height:  70px;
+	border-radius: 0 0 20px 20px;
+}
+
+
+.my-nav a{
+	color: coral;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-top: 15px;
+	text-decoration: none;
+}
+
+
+.my-nav a:hover{
+	color: orangered;
+	text-decoration: underline;
+}
+
+
+.my-soon, .my-new{
+	margin: 30px 0;
+}
+body{
+	background-color: sandybrown;
+}
+.my-soon h3, .my-new h3{
+	color: maroon;
+	font-weight: 500px;
+}
+
+.card-img-top{
+	height: 330px;
+	padding: 30px;
+	border-radius: 35px;
+}
+
+.my-btn{
+	background-color: tomato;
+	color: moccasin;
+
+}
+.my-btn:hover{
+	background-color: orangered;
+}
+.my-footer{
+	background-color: darkred;
+	color: peachpuff;
+	text-align: center;
+	font-size: 14pt;
+	border-radius: 25px 25px 0 0;
+}
+.my-reg{
+	background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+	padding: 50px;
+	margin-top: 40px;
+	color: peachpuff;
+	border-radius: 25px;
+}

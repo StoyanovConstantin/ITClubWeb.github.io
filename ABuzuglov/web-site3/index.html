@@ -1,0 +1,588 @@
+<html>
+	<head>
+		<title>Интернет-магазин</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+	<!--меню-начало-->
+	<nav class="navbar mymenu">
+			<div class="container-fluid">
+				<h3 class="mybrand-name">Автомир</h3>
+				<form class="d-flex mt-3">
+					<input type="text" class="form-control me-3" placeholder="Поиск">
+					<button class="btn mypoisk">Поиск</button>
+				</form>
+			</div>
+		</nav>
+	<!--меню-конец-->
+
+	<!--слайдер-начало-->
+	<div class="container mt-4">
+
+			<div class="carousel slide my-slider" data-bs-ride="carousel" id="itclub">
+				<div class="carousel-inner"> 
+
+					<div class="carousel-item active" data-bs-interval="1000">
+						<img src="image/слайд1.jpg" class="d-block w-100">
+					</div>
+
+					<div class="carousel-item" data-bs-interval="1000">
+						<img src="image/слайд2.jpg" class="d-block w-100">
+					</div>
+
+					<div class="carousel-item" data-bs-interval="1000">
+						<img src="image/слайд3.jpg" class="d-block w-100">
+					</div>
+
+				</div>
+				<button class="carousel-control-prev " data-bs-slide="prev" data-bs-target="#itclub"><span class="carousel-control-prev-icon my-slider-icon"></span>     </button>
+
+				<button class="carousel-control-next " data-bs-slide="next" data-bs-target="#itclub"><span class="carousel-control-next-icon my-slider-icon"></span>     </button>
+
+
+			</div>
+			
+		</div>
+	<!--слайдер-конец-->
+
+	<!--товар-начало-->
+	<div class="container mytovar">
+			<div class="row">
+
+				<!-- карточка товара начало -->
+				<div class="col-3">
+					<div class="card">
+						<div class="mybox-img">
+							<img src="image/Ford-Shelby GT500.jpg" class="card-img-top">
+						</div>
+
+						<div class="card-body">
+							<h5>Ford-Shelby GT500</h5>
+							<h3>12 560 000 руб.</h3>
+							<a href="#tovar-1" class="btn btn-info" data-bs-toggle="collapse">Описание</a>
+							<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#zakaz-1">Купить</button>
+
+							<div class="collapse" id="tovar-1">Суперкар появился в 1969 году, производитель Ford (форд), располагающийся в стране США и Shelby (Шелби), находящийся в стране США. Двигатель Ford Mustang Shelby GT500 объёмом 6997 см³ развивает мощность 340 лошадиных сил, что позволяет автомобилю разгоняться до 100 километров в час за 7 секунды и развивать максимальную скорость 198 км/ч.</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- карточка товара конец -->
+
+				<!-- карточка товара начало -->
+				<div class="col-3">
+					<div class="card">
+						<div class="mybox-img">
+							<img src="image/hyundai-sonata.png" class="card-img-top">
+						</div>
+
+						<div class="card-body">
+							<h5>Hyundai-Sonata</h5>
+							<h3>1 799 000 - 2 429 000</h3>
+							<a href="#tovar-2" class="btn btn-info" data-bs-toggle="collapse">Описание</a>
+							<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#zakaz-2">Купить</button>
+
+							<div class="collapse" id="tovar-2">Sonata — автомобиль среднего размера (D-сегмент по европейской классификации), выпускаемый южнокорейским автопроизводителем Hyundai с 1985 года и по настоящее время.</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- карточка товара конец -->
+
+				<!-- карточка товара начало -->
+				<div class="col-3">
+					<div class="card">
+						<div class="mybox-img">
+							<img src="image/audi-q8.jpg" class="card-img-top">
+						</div>
+
+						<div class="card-body">
+							<h5>Audi Q8</h5>
+							<h3>6 895 000 </h3>
+							<a href="#tovar-3" class="btn btn-info" data-bs-toggle="collapse">Описание</a>
+							<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#zakaz-3">Купить</button>
+
+							<div class="collapse" id="tovar-3">Спортивный кроссовер от немецкого производителя автомобилей Audi. Концепт Audi Q8 был представлен публике 9 января 2017 года на Североамериканском международном автосалоне в Детройте, США. Премьера серийной версии состоялась в мае 2018 года на Шеньчженьском автосалоне в Китае. Спортивная версия RS Q8 будет показана позже на Женевском автосалоне. Тестирование спортивных версий Q8 - SQ8 и RS Q8 уже проходят.</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- карточка товара конец -->
+
+				<!-- карточка товара начало -->
+				<div class="col-3">
+					<div class="card">
+						<div class="mybox-img">
+							<img src="image/kia-optima.jpg" class="card-img-top">
+						</div>
+
+						<div class="card-body">
+							<h5>KIA Optima</h5>
+							<h3>1 564 900 - 2 144 900</h3>
+							<a href="#tovar-4" class="btn btn-info" data-bs-toggle="collapse">Описание</a>
+							<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#zakaz-4">Купить</button>
+
+
+							<div class="collapse" id="tovar-4">KIA Optima (Киа Оптима) - 4-дверный седан класса «D». Четвертое поколение модели Kia Optima. Автомобиль дебютировал в рамках Франкфуртского автошоу в сентябре 2015 года.</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- карточка товара конец -->
+			</div>
+
+
+			<div class="row" >
+
+				<!-- карточка товара начало -->
+				<div class="col-3">
+					<div class="card">
+						<div class="mybox-img">
+							<img src="image/Mercedes AMG_E63.jpg" class="card-img-top">
+						</div>
+
+						<div class="card-body">
+							<h5>Mercedes AMG_E63.</h5>
+							<h3>9500000</h3>
+							<a href="#tovar-5" class="btn btn-info" data-bs-toggle="collapse">Описание</a>
+							<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#zakaz-5">Купить</button>
+
+							<div class="collapse" id="tovar-5">Линейка легковых автомобилей бизнес-класса немецкой марки «Мерседес-Бенц», пятое поколение E-класса в фирменном модельном ряду компании, пришедшее на смену 212 серии. Презентация состоялась 11 января 2016 года на Детройтском автосалоне. В отличие от предыдущего поколения, новая серия собирается на основе модульной платформы MRA, имеет большие габариты, оснащается множеством современных систем безопасности и помощи водителю, а также новыми и модернизированными силовыми агрегатами.</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- карточка товара конец -->
+
+				<!-- карточка товара начало -->
+				<div class="col-3">
+					<div class="card">
+						<div class="mybox-img">
+							<img src="image/nissan qashgai.png" class="card-img-top">
+						</div>
+
+						<div class="card-body">
+							<h5>Nissan Qashqai</h5>
+							<h3>1 595 000 - 2 299 000</h3>
+							<a href="#tovar-6" class="btn btn-info" data-bs-toggle="collapse">Описание</a>
+							<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#zakaz-6">Купить</button>
+
+
+							<div class="collapse" id="tovar-6">Nissan Qashqai (Ниссан Кашкай) - 5-дверный кроссовер класса «K1». Рестайлинговая версия второго поколения модели Qashqai. Премьера автомобиля состоялась в марте 2017 года на Женевском автосалоне.</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- карточка товара конец -->
+
+				<!-- карточка товара начало -->
+				<div class="col-3">
+					<div class="card">
+						<div class="mybox-img">
+							<img src="image/а8.jpg" class="card-img-top">
+						</div>
+
+						<div class="card-body">
+							<h5>Audi A8</h5>
+							<h3>7 740 000 </h3>
+							<a href="#tovar-7" class="btn btn-info" data-bs-toggle="collapse">Описание</a>
+							<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#zakaz-7">Купить</button>
+
+							<div class="collapse" id="tovar-7">Audi A8 — высококомфортный скоростной седан представительского класса, флагман модельного ряда Audi. Впервые был показана в феврале 1994.</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- карточка товара конец -->
+
+				<!-- карточка товара начало -->
+				<div class="col-3">
+					<div class="card">
+						<div class="mybox-img">
+							<img src="image/бмв i8.png" class="card-img-top">
+						</div>
+
+						<div class="card-body">
+							<h5>BMW i8</h5>
+							<h3>9 910 000</h3>
+							<a href="#tovar-8" class="btn btn-info" data-bs-toggle="collapse">Описание</a>
+							<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#zakaz-8">Купить</button>
+							<div class="collapse" id="tovar-8">Модель BMW i8 2020-2021 является первой в мире машиной, расход топлива которой можно сравнить с компактным авто. Главным отличием от других автомобилей является сочетание двигателя внутреннего сгорания и электродвигателя. Данная схема обеспечивает большую эффективность и управляемость на дороге в сравнении с другими автомобилями.</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- карточка товара конец -->
+			</div>
+
+		</div>
+		
+<!--модалка-начало-->
+		<div class="modal fade" id="zakaz-1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Ford-Shelby gt500</h5>
+						<button class="btn-close" data-bs-dismiss="modal"></button>
+					</div>
+					<div class="modal-body">
+						<h6>Заполните форму заказа</h6>
+						<form>
+							<label class="formlabel">Введите свое имя</label>
+							<input class="form-control" type="text">
+
+							<label class="formlabel">Введите свой номер телефона</label>
+							<input class="form-control" type="tel" required>
+
+							<label class="formlabel">Введите количество товара</label>
+							<input class="form-control" type="number" min="1" max="100">
+							<h6>Выберите форму оплаты</h6>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Наличными</label>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Картой банка</label>
+
+							<input type="radio" class="form-check-input" name="pay">
+							<label class="form-label me-2" >Эл кошельком</label>
+						
+					</div>
+
+					<div class="modal-footer">
+						<button class="btn btn-success"	 type="submit">Оформить</button>
+						<button class="btn btn-secondary"	 type="reset">Сбросить</button>
+
+
+					</div>
+					</form>
+
+			</div>
+		</div>
+		</div>
+		<!---модалка-конец-->
+
+		<!--модалка-начало-2-->
+		<div class="modal fade" id="zakaz-2">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Hyundai-Sonata</h5>
+						<button class="btn-close" data-bs-dismiss="modal"></button>
+					</div>
+					<div class="modal-body">
+						<h6>Заполните форму заказа</h6>
+						<form>
+							<label class="formlabel">Введите свое имя</label>
+							<input class="form-control" type="text">
+
+							<label class="formlabel">Введите свой номер телефона</label>
+							<input class="form-control" type="tel" required>
+
+							<label class="formlabel">Введите количество товара</label>
+							<input class="form-control" type="number" min="1" max="100">
+							<h6>Выберите форму оплаты</h6>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Наличными</label>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Картой банка</label>
+
+							<input type="radio" class="form-check-input" name="pay">
+							<label class="form-label me-2" >Эл кошельком</label>
+						
+					</div>
+
+					<div class="modal-footer">
+						<button class="btn btn-success"	 type="submit">Оформить</button>
+						<button class="btn btn-secondary"	 type="reset">Сбросить</button>
+
+
+					</div>
+					</form>
+
+			</div>
+		</div>
+		</div>
+		<!---модалка-конец-2-->
+
+
+		<!--модалка-начало-3-->
+		<div class="modal fade" id="zakaz-3">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Audi-Q8</h5>
+						<button class="btn-close" data-bs-dismiss="modal"></button>
+					</div>
+					<div class="modal-body">
+						<h6>Заполните форму заказа</h6>
+						<form>
+							<label class="formlabel">Введите свое имя</label>
+							<input class="form-control" type="text">
+
+							<label class="formlabel">Введите свой номер телефона</label>
+							<input class="form-control" type="tel" required>
+
+							<label class="formlabel">Введите количество товара</label>
+							<input class="form-control" type="number" min="1" max="100">
+							<h6>Выберите форму оплаты</h6>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Наличными</label>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Картой банка</label>
+
+							<input type="radio" class="form-check-input" name="pay">
+							<label class="form-label me-2" >Эл кошельком</label>
+						
+					</div>
+
+					<div class="modal-footer">
+						<button class="btn btn-success"	 type="submit">Оформить</button>
+						<button class="btn btn-secondary"	 type="reset">Сбросить</button>
+
+
+					</div>
+					</form>
+
+			</div>
+		</div>
+		</div>
+		<!---модалка-конец-3-->
+
+		<!--модалка-начало-4-->
+		<div class="modal fade" id="zakaz-4">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Kia-Optima</h5>
+						<button class="btn-close" data-bs-dismiss="modal"></button>
+					</div>
+					<div class="modal-body">
+						<h6>Заполните форму заказа</h6>
+						<form>
+							<label class="formlabel">Введите свое имя</label>
+							<input class="form-control" type="text">
+
+							<label class="formlabel">Введите свой номер телефона</label>
+							<input class="form-control" type="tel" required>
+
+							<label class="formlabel">Введите количество товара</label>
+							<input class="form-control" type="number" min="1" max="100">
+							<h6>Выберите форму оплаты</h6>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Наличными</label>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Картой банка</label>
+
+							<input type="radio" class="form-check-input" name="pay">
+							<label class="form-label me-2" >Эл кошельком</label>
+						
+					</div>
+
+					<div class="modal-footer">
+						<button class="btn btn-success"	 type="submit">Оформить</button>
+						<button class="btn btn-secondary"	 type="reset">Сбросить</button>
+
+
+					</div>
+					</form>
+
+			</div>
+		</div>
+		</div>
+		<!---модалка-конец-4-->
+
+		<!--модалка-начало-5-->
+		<div class="modal fade" id="zakaz-5">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Mercedes AMG_E63</h5>
+						<button class="btn-close" data-bs-dismiss="modal"></button>
+					</div>
+					<div class="modal-body">
+						<h6>Заполните форму заказа</h6>
+						<form>
+							<label class="formlabel">Введите свое имя</label>
+							<input class="form-control" type="text">
+
+							<label class="formlabel">Введите свой номер телефона</label>
+							<input class="form-control" type="tel" required>
+
+							<label class="formlabel">Введите количество товара</label>
+							<input class="form-control" type="number" min="1" max="100">
+							<h6>Выберите форму оплаты</h6>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Наличными</label>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Картой банка</label>
+
+							<input type="radio" class="form-check-input" name="pay">
+							<label class="form-label me-2" >Эл кошельком</label>
+						
+					</div>
+
+					<div class="modal-footer">
+						<button class="btn btn-success"	 type="submit">Оформить</button>
+						<button class="btn btn-secondary"	 type="reset">Сбросить</button>
+
+
+					</div>
+					</form>
+
+			</div>
+		</div>
+		</div>
+		<!---модалка-конец-5-->
+
+		<!--модалка-начало-6-->
+		<div class="modal fade" id="zakaz-6">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Nissan Qashgai</h5>
+						<button class="btn-close" data-bs-dismiss="modal"></button>
+					</div>
+					<div class="modal-body">
+						<h6>Заполните форму заказа</h6>
+						<form>
+							<label class="formlabel">Введите свое имя</label>
+							<input class="form-control" type="text">
+
+							<label class="formlabel">Введите свой номер телефона</label>
+							<input class="form-control" type="tel" required>
+
+							<label class="formlabel">Введите количество товара</label>
+							<input class="form-control" type="number" min="1" max="100">
+							<h6>Выберите форму оплаты</h6>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Наличными</label>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Картой банка</label>
+
+							<input type="radio" class="form-check-input" name="pay">
+							<label class="form-label me-2" >Эл кошельком</label>
+						
+					</div>
+
+					<div class="modal-footer">
+						<button class="btn btn-success"	 type="submit">Оформить</button>
+						<button class="btn btn-secondary"	 type="reset">Сбросить</button>
+
+
+					</div>
+					</form>
+
+			</div>
+		</div>
+		</div>
+		<!---модалка-конец-6-->
+
+
+		<!--модалка-начало-7-->
+		<div class="modal fade" id="zakaz-7">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Audi A8</h5>
+						<button class="btn-close" data-bs-dismiss="modal"></button>
+					</div>
+					<div class="modal-body">
+						<h6>Заполните форму заказа</h6>
+						<form>
+							<label class="formlabel">Введите свое имя</label>
+							<input class="form-control" type="text">
+
+							<label class="formlabel">Введите свой номер телефона</label>
+							<input class="form-control" type="tel" required>
+
+							<label class="formlabel">Введите количество товара</label>
+							<input class="form-control" type="number" min="1" max="100">
+							<h6>Выберите форму оплаты</h6>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Наличными</label>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Картой банка</label>
+
+							<input type="radio" class="form-check-input" name="pay">
+							<label class="form-label me-2" >Эл кошельком</label>
+						
+					</div>
+
+					<div class="modal-footer">
+						<button class="btn btn-success"	 type="submit">Оформить</button>
+						<button class="btn btn-secondary"	 type="reset">Сбросить</button>
+
+
+					</div>
+					</form>
+
+			</div>
+		</div>
+		</div>
+		<!---модалка-конец-7-->
+
+		<!--модалка-начало-8-->
+		<div class="modal fade" id="zakaz-8">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>BMW i8</h5>
+						<button class="btn-close" data-bs-dismiss="modal"></button>
+					</div>
+					<div class="modal-body">
+						<h6>Заполните форму заказа</h6>
+						<form>
+							<label class="formlabel">Введите свое имя</label>
+							<input class="form-control" type="text">
+
+							<label class="formlabel">Введите свой номер телефона</label>
+							<input class="form-control" type="tel" required>
+
+							<label class="formlabel">Введите количество товара</label>
+							<input class="form-control" type="number" min="1" max="100">
+							<h6>Выберите форму оплаты</h6>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Наличными</label>
+
+							<input type="radio" class="form-check-input " name="pay">
+							<label class="form-label me-2" >Картой банка</label>
+
+							<input type="radio" class="form-check-input" name="pay">
+							<label class="form-label me-2" >Эл кошельком</label>
+						
+					</div>
+
+					<div class="modal-footer">
+						<button class="btn btn-success"	 type="submit">Оформить</button>
+						<button class="btn btn-secondary"	 type="reset">Сбросить</button>
+
+
+					</div>
+					</form>
+
+			</div>
+		</div>
+		</div>
+		<!---модалка-конец-8-->
+	<!--товар-конец-->
+	</body>
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+</html>

@@ -1,0 +1,130 @@
+body{
+	background-image: url("../img/bg1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.left-side{
+	width: 300px;
+	height: 100vh;
+	float: left;
+	position: fixed;
+}
+
+.right-side{
+	width: 100%;
+	float: left;
+	padding-left: 300px;
+}
+
+.my-navi{
+	width: 100%;
+	height: 100vh;
+	background-color: Lavender;
+}
+
+.my-menu {
+	margin: 0 auto;
+	list-style: none;
+}
+
+.my-menu li{
+	margin: 20px 0;
+}
+
+.my-menu li a{
+	font-size: 16pt;
+	color: MediumPurple;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.my-menu li a:hover{
+	color: Purple;
+	text-decoration: underline;
+}
+
+section{
+	height: 100vh;
+}
+
+.my-about{
+	background-color: rgba(200, 144, 213, 0.55);
+}
+
+.my-skills{
+	background-color: rgba(76, 169, 160, 0.3);
+}
+
+.my-interests{
+	background-color: rgba(200, 144, 213, 0.55);
+}
+
+.my-about-text{
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+.my-skills-text, .my-int-text{
+	color: white;
+	padding: 50px;
+	background-color: rgba(180, 180, 180, 0.9);
+	border-radius: 10px;
+}
+.my-skills-text h4, .my-int-text p {
+	font-size: 24pt;
+}
+
+.my-skills-text h5{
+	font-size: 18pt;
+}
+
+.my-awards{
+	background-color: blue;
+}
+
+.my-works{
+	background-color: red;
+}
+
+.my-contacts{
+	background-color: rgba(50, 57, 160, 0.6);
+}
+
+.my-cont-text h2{
+	color: white;
+	font-size: 32pt;
+	font-weight: 400;
+	
+}
+
+.my-cont-text h3{
+	color: white;
+	font-size: 24pt;
+	font-weight: 400;
+	margin: 20px 0;
+}
+
+.my-icon{
+    color: white;
+	font-size: 28pt;
+background-color: gray;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+text-align: center;
+margin: 10px 20px;
+
+display:table-cell;
+vertical-align: middle;
+}
+
+.my-icon:hover{
+	color: red;
+}
+
+
+
+
+

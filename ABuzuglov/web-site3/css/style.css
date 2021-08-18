@@ -1,0 +1,58 @@
+body{
+	background-image: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%);
+	
+}
+.carousel-item img{
+	min-height:600px; 
+	max-height:650px;
+}
+
+.my-slider-icon{
+	background-color:LightSkyBlue; 
+	padding:12px 0;
+	border:3px RoyalBlue solid;
+}
+
+
+.mybox-img{
+	height:200px;
+	text-align:center;
+}
+
+.mybox-img img{
+	width:auto;
+	max-height:250px;
+	max-width:100%;
+}
+
+.mymenu{
+	background-color:darkturquoise; 
+	padding: 0 50px;
+
+
+}
+
+.mybrand-name{
+	color:black;
+	font-weight:600;
+	padding:5px;
+}
+
+.mypoisk{
+	background-color:navy;
+	color:white;
+
+}
+
+.mytovar{
+	margin-top:30px;
+}
+
+.mytovar .row{
+	margin-bottom:30px; 
+}
+
+.cad-body h5{
+	font-size:1rem;
+	min-height:40px;
+}
