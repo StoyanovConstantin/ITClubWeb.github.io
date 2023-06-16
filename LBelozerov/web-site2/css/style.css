@@ -1,0 +1,141 @@
+/* #46A46C -фон
+#FFFFFF - текст
+#A01C32 - карточки
+#66C3D1 - граница*/
+
+body{ 
+ background-color:#46A46C;
+ color: #ffffff;
+  }
+ .bg-leon{
+ 	background-color: #A01C32;
+ }
+ .btn-leon{
+ 	background-color:rgba(102, 195, 209, 0.7) ;
+ }
+ .btn-leon:hover{
+ 	background-color:#66C3D1 ;
+ 	color: #000;
+ }
+ .cardshoes{
+    background-color:#A01C32 ;
+    color: #fff;
+    border:1px solid #66C3D1;
+ }
+ .cardshoes-size s{
+    color: #EAEBEB;
+    font-size: 10pt;
+ }
+ .cardshoes-size b{
+    font-size: 14pt;
+ }
+ .cardshoes-size span{
+    color: #430C15;
+    font-size: 12pt;
+    background-color:#66C3D1;
+    border-radius: 3px;
+    padding: 4px 8px;
+    margin: 4px;
+ }
+ .payleon{
+    color: #fff;
+    border: 3px solid #fff;
+    font-weight: 700;
+ }
+ .payleon:hover{
+    background-color: #fff;
+    color: #A01C32;
+ }
+ .cardshoes-size{
+    background-color:#A01C32 ;
+    color: #fff;
+    border: 0;
+ }
+ .nobrd{
+    border: 0;
+ }
+ .strelka{
+    background-color: #A01C32;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 12pt;
+ }
+ .newprice{
+    font-size: 14pt;
+    font-weight: 700;
+    color:#A01C32 ;
+    margin-left:10px ;
+ }
+ .btn-leon-big{
+    font-size: 14pt;
+    padding: 10px 40px;
+    color: #A01C32;
+    border: 5px solid #A01C32;
+    font-weight: 700;
+ }
+ .btn-leon-big:hover{
+    color: #fff;
+    background-color:#A01C32 ;
+ }
+ .footerleon{
+    background-color: darkgray;
+    color: white;
+    padding: 10px 10%;
+ }
+ .footerlogo{
+    background-color: green;
+    padding: 20px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    color: black;
+ }
+ .footerlogo a img{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+ }
+ .contact{
+    font-size: 14pt;
+    padding: 5px;
+ }
+.social{
+    margin-top: 20px;
+    display: flex;
+}
+.social > div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16pt;
+    padding: 10px;
+    margin: 0 10px;
+}
+.social > div a{
+    color: #212529;
+}
+.social-ds{
+    background-color: #7289DA;
+}
+.social-sk{
+     background-color: #009EDC;
+}
+.social-tg{
+     background-color: #009EDC;
+}
+.social-tw{
+     background-color: #009EDC;
+}
+.social-wp{
+     background-color:  #28D146;
+}
+.social > div:hover{
+    background-color: #fff !important;
+}
+.group-buy{
+    display: inline-block;
+}
