@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.shapka{
+	background-color: MediumPurple;
+	margin: auto;
+	width: 960px;
+	padding: 30px;
+}
+.name{
+   color: white;
+   font-size: 36pt;
+}
+.slog{
+	color: Lavender;
+	font-size: 20pt;
+}
+.meny{
+	text-align: right;
+}
+.meny a{
+   color: white;
+   font-size: 14pt;
+   text-decoration: none;
+   margin: 0 6px;
+}
+.meny a:hover{
+   color: Violet;
+}
+.advertising{
+	background-image: url("img/bg2.jpg");
+	background-size: 100% auto;
+	width:960px ;
+	margin: 0 auto;
+	padding: 30px;
+}
+.adv{
+	background-color:rgba(247, 247, 247, 0.5) ;
+	text-align: center;
+	width: auto;
+	height: 100%;
+	border-radius: 15px;
+	border: solid  white 2px;
+	padding: 30px;
+}
+.adv h3{
+	color:Fuchsia ;
+   text-align: center;
+   font-size: 20pt;
+   margin-bottom: 60px;
+}
+.adv a{
+	text-decoration: none;
+	font-size: 18pt;
+	padding: 15px;
+	border: solid  MediumPurple 3px;
+	border-radius: 7px;
+	color: MediumPurple ;
+}
+.adv a:hover{
+	background-color:  MediumPurple;
+	color: white;
+}
+span{
+	color: MediumVioletRed;
+	font-weight: 900;
+}
+.reg{
+	width: 960px;
+	margin: 0 auto;
+	background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+	padding: 30px;
+}
+.forma{
+	float: right;
+	text-align: right;
+}
+.forma h2{
+	color: violet;
+	font-size: 24pt;
+	text-align: right;
+	margin-bottom: 20px;
+}
+label{
+	color: BlueViolet;
+	font-size: 14pt;
+}
+input{
+	background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+	padding: 8px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	border:2px BlueViolet solid;
+	font-size: 14pt;
+	color: BlueViolet;
+}
+button{
+	font-size: 14pt;
+	padding: 8px;
+	margin-top: 5px;
+	border-radius: 10px;
+	background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+	border:2px BlueViolet solid;
+	color: white;
+}
+.tovar{
+	width: 960px;
+	background-image: linear-gradient(to bottom,   #d299c2 0%, #9370DB  100%);
+	margin:0 auto ;
+	padding: 30px;
+}
+.card{
+	width: 270px;
+	margin: 10px;
+	padding: 10px 10px 30px 10px;
+	background-image: linear-gradient(to top, #97d9e1 0%,  #d9afd9  100%);
+	text-align: center;
+	border-radius: 20px;
+	border: solid 2px white;
+	display: inline-table;
+
+}
+.card img{
+   width: 80%;
+   border-radius: 20px;
+   margin: 10px auto;
+}
+.card h3{
+	color: Indigo;
+	margin: 5px 0;
+}
+.card h4{
+	color: Indigo;
+	margin-bottom: 20px;
+}
+.card a {
+	background-color: white;
+	color: Indigo;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: 800;
+	border-radius: 13px;
+	border: solid 1px Indigo;
+	
+}
+.card a:hover{
+	background-color: Indigo;
+	color: white;
+}
