@@ -1,0 +1,113 @@
+body{
+	background: rgb(231,182,133);
+	background: linear-gradient(45deg, rgba(231,182,133,1) 0%, rgba(210,113,43,1) 50%, rgba(246,174,29,1) 100%);
+}
+.kino-panel{
+	background-color: DarkTurquoise;
+	border-radius: 0 0 5px 5px;
+	padding: 10px;
+}
+.kino-brand{
+	color: LightCyan;
+	font-weight: 800;
+}
+.kino-brand:hover{
+	color: LightSalmon;
+}
+.kino-menu a{
+	color: LightCyan;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 0 5px;
+}
+.kino-menu a:hover{
+	color: LightSalmon;
+}
+.kino-reg{
+	padding: 30px;
+	background-image: linear-gradient(60deg, LightSalmon 0%, DarkTurquoise 100%);
+	border-radius: 5px;
+	margin-top: 20px;
+	
+}
+
+.kino-reg-text{
+	color: LightCyan;
+	font-weight: 800;
+	font-size: 26pt;
+	line-height: 36pt;
+	margin-top: 70px;
+}
+.kino-reg-check:checked{
+	background-color: DarkOrange;
+	border-color: LightSalmon ;
+}
+
+.kino-input{
+	color:  LightCyan;
+	background-color: LightSalmon;
+	font-size: 14pt;
+}
+.kino-label{
+	color:  LightCyan;
+	font-weight: 600;
+	font-size: 14pt;
+}
+.kino-btn{
+	color:  LightCyan;
+	background-color: LightSalmon;
+	font-size: 14pt;
+	border: 2px solid Coral;
+}
+.kino-btn:hover{
+	background-color: Coral;
+	border: 2px solid LightSalmon;
+}
+.kino-kont{
+	margin-top: 24px;
+}
+.kino-table{
+	border-radius: 5px;
+	background-color: SkyBlue !important;
+}
+.kino-h2{
+	font-size: 36pt;
+	margin: 24px 0;
+	font-weight: 600;
+	color: Chocolate;
+}
+.card a{
+	background-color: DarkTurquoise;
+	border: none;
+}
+.card a:hover{
+	background-color: RoyalBlue;
+}
+.kino-h3{
+	color: black ;
+}
+.kino-video{
+	border-radius: 5px;
+}
+.table-striped>tbody>tr:nth-child(odd)>td{
+   background-color: DarkTurquoise; // 1й цвет
+ }
+ 
+.table-striped>tbody>tr:nth-child(even)>td {
+   background-color: white; // 2й цвет
+ }
+ .kino-foot{
+ 	background-color: Sienna;
+ 	color: white;
+ 	text-align: center;
+ 	padding: 30px;
+ 	border-radius: 5px 5px 0 0;
+	margin-top: 20px;
+
+ }
+ .icon{
+ 	padding: 10px;
+ 	margin-top: 20px;
+
+
+ }
