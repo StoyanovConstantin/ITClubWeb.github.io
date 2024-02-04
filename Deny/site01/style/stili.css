@@ -1,0 +1,141 @@
+body{
+	background-color: white;
+	}
+.shapka{
+	background-color: #d1fdff;
+	border-radius: 5px;
+	padding: 20px;
+	width: 900px;
+	margin: 10px auto;
+	color: purple;
+		}
+.silki{
+	margin:14px;
+	margin-left: auto;
+    text-align: right;
+	}	
+.silki > a{
+	color: black;
+	margin: 0 10px;
+	font-size: 14pt;
+	color: purple;
+}
+.registr{
+	background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+	width: 900px;
+	margin: 10px auto;
+	padding: 20px;
+	height: 370px;
+	border-radius: 5px;
+
+}
+.levo{
+	width:50%;
+	float: left;
+}
+.pravo{
+
+	width: 50%;
+	float: right;
+}
+.pravo h3{
+	font-size: 18pt;
+	color: purple;
+}
+.pravo > p{
+	color:#8D2373;
+	margin-bottom: 2px;
+	font-size: 10pt;
+}
+
+.pravo .pravila{
+	margin:20px 10px 30px 0px;
+	height: 16px;
+	width: 16px;
+	border-radius:5px;
+	border: 2px #8D2373 solid;
+}
+.pravo > span{
+	color:#8D2373;
+	font-size: 16pt;
+	padding-bottom: 10px;
+
+}
+.pravo > input{
+	height: 28px;
+	width: 200px;
+	font-size: 14pt;
+	padding: 2px 8px;
+	border-radius:5px;
+	border: 2px #8D2373 solid;
+	color: red;
+}
+.pravo a{
+	font-size: 16pt;
+	background-color:#8D2373 ;
+	padding: 8px ;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+}
+.levo img{
+	margin-left:40px;
+	margin-top: 30px;
+}
+.kartochki{
+	background-image: linear-gradient(to bottom, #fddb92 0%, ForestGreen 100%);
+	width: 900px;
+	padding: 20px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+.stroka{
+	width: 100%;
+	text-align: center;
+	margin: 20px 0 ;
+}
+.card{
+	display: inline-table;
+	background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+	width: 240px;
+	border-radius: 5px;
+	padding: 15px 15px 25px 15px;
+	margin:0 10px ;
+
+}
+.thumb{
+	padding: 10px;
+	background-color: white;
+	border-radius: 5px;
+}
+.cardimg{
+	width: 100%;
+
+}
+.cena{
+	color: black;
+}
+.knopka{
+	background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+	padding: 8px 12px;
+	color: DarkslateBlue;
+	border-radius: 5px;
+	border: 1px SlateBlue solid;
+	text-decoration: none;
+}
+.knopka:hover{
+	color: SlateBlue;
+	background-image: linear-gradient(to left, #a18cd1 0%, #fbc2eb 100%);
+}
+.podwal{
+	width: 900px;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: ForestGreen;
+	border-radius: 5px;
+	text-align: center;
+}
+.podwal h3, .podwal h4{
+	color: SpringGreen;
+	margin: 10px;
+}
